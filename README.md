@@ -7,7 +7,7 @@
 
 ## Configure
 
-~~* copy file *`config/app.json.dist`* to *`config/app.json`* and change values according to your environment~~
+* ~~copy file *`config/app.json.dist`* to *`config/app.json`* and change values according to your environment~~
 * Update file *`src/config.js`* accordingly to your configuration
 * `gulp` build dist files 
 
