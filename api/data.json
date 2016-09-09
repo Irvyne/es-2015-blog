@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thibaud BARDIN",
+      "username": "irvyne"
+    },
+    {
+      "id": 2,
+      "name": "John DOE",
+      "username": "johnD"
+    },
+    {
+      "id": 3,
+      "name": "Jane DOE",
+      "username": "janeD"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Babel"
+    },
+    {
+      "id": 2,
+      "name": "ES 2015"
+    },
+    {
+      "id": 3,
+      "name": "React JS"
+    },
+    {
+      "id": 4,
+      "name": "PHP 7"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Babel & ES 2015",
+      "createdAt": "2016-09-01T00:00:00.000Z",
+      "updatedAt": "2016-09-02T05:00:00.000Z",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula eros sit amet efficitur dapibus. Curabitur at magna in libero aliquet iaculis. Mauris gravida est nulla, quis suscipit ligula vehicula sed. Cras tempus euismod purus, nec dapibus metus mollis non. Fusce ultricies mollis odio, nec condimentum orci luctus eu. Duis aliquet blandit ante quis faucibus. Ut volutpat non tellus at vehicula. Phasellus vel tempor dolor. Cras placerat sollicitudin semper. In dictum metus congue quam auctor lacinia porttitor ac magna.",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Babel"
+        },
+        {
+          "id": 2,
+          "name": "ES 2015"
+        }
+      ],
+      "author": 1
+    },
+    {
+      "title": "PHP 7",
+      "createdAt": "2016-15-01T00:00:00.000Z",
+      "updatedAt": "2016-15-01T00:00:00.000Z",
+      "description": "Donec neque nunc, finibus sed dui vel, tempus vulputate nunc. Sed lacinia semper elit et convallis. Nunc ac mi ut libero tempus mattis eget at ligula. Vestibulum dapibus mauris at vehicula dignissim. Praesent suscipit semper nibh et condimentum. Ut metus metus, bibendum a sodales sit amet, lobortis at quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam risus risus, condimentum in nunc a, vulputate vestibulum mi. Cras maximus neque ut est ultricies rutrum.",
+      "categories": [
+        {
+          "id": 4,
+          "name": "PHP"
+        }
+      ],
+      "author": 1
+    },
+    {
+      "title": "React JS",
+      "createdAt": "2016-19-01T00:00:00.000Z",
+      "updatedAt": "2016-25-02T05:00:00.000Z",
+      "description": "Nullam augue eros, molestie a eros a, laoreet venenatis arcu. Curabitur nec lorem et risus dignissim vestibulum ac sed odio. Etiam posuere tempor velit id porttitor. Morbi quis odio laoreet, porttitor risus ac, auctor ligula. Nunc tincidunt pulvinar libero. Morbi gravida, nibh vel aliquam tempus, nunc urna tristique ex, nec dapibus elit urna eget ante. Ut vulputate, lorem sed dictum hendrerit, elit orci ullamcorper erat, a pretium eros nibh ac odio. Cras mauris quam, varius ut porttitor quis, commodo a mauris.",
+      "categories": [
+        {
+          "id": 3,
+          "name": "React JS"
+        }
+      ],
+      "author": 2
+    },
+    {
+      "title": "ES 2015 (ES6)",
+      "createdAt": "2016-20-01T05:00:00.000Z",
+      "updatedAt": "2016-20-02T10:30:00.000Z",
+      "description": "Pellentesque ut mollis risus. Pellentesque at ex eu nibh lobortis consectetur eu non dolor. Sed sit amet tortor non enim accumsan gravida eu non mauris. Praesent at mauris semper, ultrices augue id, consectetur velit. In at pretium lacus. Phasellus sit amet ante ac tortor consectetur scelerisque. Pellentesque vitae fermentum turpis, ut consequat dolor.",
+      "categories": [
+        {
+          "id": 2,
+          "name": "ES 2015"
+        }
+      ],
+      "author": 3
+    }
+  ]
+}
